@@ -10,7 +10,7 @@ using FluentAssertions;
 
 namespace Okta.Net.Test.Integration
 {
-	public class ProfileIdentityClientConfigurationProviderShould
+	public class ProfileIdentityClientConfigurationProviderShouldActually
 	{
 		[Fact]
 		public void GetDefaultConfiguration()

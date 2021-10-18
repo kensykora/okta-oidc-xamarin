@@ -10,7 +10,7 @@ using Xunit;
 
 namespace Okta.Net.Test.Integration
 {
-	public class ProfileIdentityClientConfigurationShould
+	public class ProfileIdentityClientConfigurationShouldActually
 	{
 		[Fact]
 		public void HaveFile()

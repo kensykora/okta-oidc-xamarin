@@ -13,7 +13,7 @@ namespace Okta.Net.Test.Unit.IonForms
 	public class IdentityIntrospectionShould
 	{
 		[Fact]
-		public async Task HaveIonObject()
+		public void HaveIonObject()
 		{
 			IdentityIntrospection introspection = new IdentityIntrospection();
 			string introspectJson = File.ReadAllText("./Unit/IonForms/test-introspect-response.json");

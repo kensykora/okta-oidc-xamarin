@@ -8,7 +8,7 @@ using Xunit;
 
 namespace Okta.Net.Test.Integration
 {
-	public class DefaultIdentityClientShould
+	public class DefaultIdentityClientShouldActually
 	{
 		[Fact]
 		public async Task CallInteractWithoutException()
